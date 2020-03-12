@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IT Kiosk</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="../public/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="brand"><a href="/"><img src="../public/img/home.png" class="homeicon"></a><span>Company Here</span> IT Kiosk</h1>
+    <div class="wrapper animated bounceInLeft">
+      <div class="contact res-company-info padmod">
+        <div class="contact">
+            <h3>Unlock Account</h3>
+            <form method="POST" action="unlockacc">
+            <p class="userpad">
+             <label>Username</label>
+             <input type="text" name="user" autocomplete="off" placeholder="e.g. jsmith" required>
+            </p>
+            <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

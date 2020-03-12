@@ -1,0 +1,6 @@
+{
+    "user": "userhere@domain.lcal",
+    "pass": "passhere",
+    "server": "ldaps://ipaddressgoeshere",
+    "host": "mailserverhere"
+}
