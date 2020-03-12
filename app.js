@@ -7,7 +7,7 @@ const AD = require('ad');
 const options = require('./config/options');
 
 const app = express();
-const port = 80;
+const port = 3000;
 
 const ad = new AD({
   url: options.storageConfig.server,
